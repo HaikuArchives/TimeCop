@@ -1,0 +1,27 @@
+TimeCop Version 0.61ß
+
+You want to know, how much time you spend in front of your computer?
+You want to know, how often your BeBox crashes?
+
+So you can use TimeCop to write a protocol of your computer sessions.
+TimeCop can show you the protocol in several statistics.
+
+How to install:
+
+Copy TimeCop on a place, where you love it. Then you should change your UserBootscript in a way, that the "TimeCop_daemon" is started everey time you use your computer.
+
+For example. The TimeCop-Folder is:
+
+/boot/home/TimeCop
+
+then insert this line to your /boot/home/config/boot/UserBootskript
+
+~/TimeCop/TimeCop_daemon &
+
+Thats all.
+
+The daemon writes now a protocolfile which is named: "/var/log/TimeCop.log"
+
+So i hope, you have much fun with my first Applikation
+
+Feel free to contact me, if you have any trouble: michael@augusta.de
