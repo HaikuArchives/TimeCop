@@ -65,12 +65,8 @@ resource app_version {
 	variety = B_APPV_DEVELOPMENT,
 	internal = 0,
 
-	short_info = #'CSTR' array {
-
-	},
-	long_info = #'CSTR' array {
-
-	}
+	short_info = "Measure time spent at the computer and log crashes",
+	long_info = "TimeCop measures the time you spent at your computer and logs crashes of the system as well as their reason."
 };
 
 resource app_flags B_SINGLE_LAUNCH;
