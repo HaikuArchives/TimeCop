@@ -10,7 +10,7 @@
 #include <string.h>
 
 myLogfile::myLogfile(void) {
-	find_directory(B_COMMON_LOG_DIRECTORY, &path);
+	find_directory(B_SYSTEM_LOG_DIRECTORY, &path);
 	path.Append("TimeCop.log");
 	mem = NULL;
 	anzahl = 0L;
