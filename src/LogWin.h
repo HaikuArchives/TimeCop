@@ -2,6 +2,7 @@
 #define SEEBAER_LOGWIN
 
 #include "myLogfile.h"
+#include <InterfaceKit.h>
 
 class LogWin : public BWindow {
 
